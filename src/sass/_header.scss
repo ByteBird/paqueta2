@@ -1,0 +1,89 @@
+// TOP BAR
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $main-color;
+    color: $blank-color;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 2rem;
+}
+
+.number-contact i {
+    font-size: 1.3rem;
+    margin-right: 0.3rem;
+}
+.nav-bar label i {
+    font-size: 1.5rem;
+}
+
+// HEADER CONTENT 1
+
+.header-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    color: $title-color;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: "Pattaya", sans-serif;
+    margin: 2rem 0;
+}
+
+.slogan-1 {
+    text-align: center;
+    width: 30ch;
+    line-height: 1.7;
+    color: $black-light;
+}
+
+.header-image {
+    width: 90%;
+}
+
+.header-link {
+    background: $main-color;
+    margin: 3rem 0;
+    padding: 1.5rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+}
+
+// HEADER CONTENT 2
+
+.header-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan-2 {
+    font-size: 1.3rem;
+    text-align: center;
+    width: 19.9ch;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: $main-color;
+    text-shadow: 0 0px 2px rgba($black-light, 0.5);
+}
+
+.header-image-2 {
+    width: 80%;
+    margin: 2rem 0;
+}
+
+.header-link-2 {
+    background: $main-color;
+    margin: 3rem 0;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Pattaya&display=swap");
+@import "config";
+@import "variables";
+@import "glide.scss";
+@import "basic-styles";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+
+* {
+    box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    width: 100vw;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}

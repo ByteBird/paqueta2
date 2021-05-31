@@ -1,0 +1,51 @@
+.main-container 
+    main.main 
+        section.first-section 
+            h2.title paqueta2
+            article.articles 
+                p.article-text Una empresa dedicada a la fabricación de productos biodegradables
+                img(src="/images/images11.jpg", alt="")
+            article.articles 
+                p.article-text Ofrecemos una gran variedad de vajillas y envases de materiales biodegradables
+                img(src="/images/images12.jpg", alt="")
+        section.glide
+            p.presentation-products algunos productos
+            .glide__track(data-glide-el='track')
+                ul.glide__slides 
+                    - let n = 1;
+                    while n < 7
+                        li.glide__slide
+                            img(src=`/images/transparent${n++}.png`, alt="")
+                            //- img(src=`images/images${n++}.jpg`, alt="")
+            //- .glide__arrows(data-glide-el='controls')
+            //-     button.glide__arrow.glide__arrow--left(data-glide-dir="<") prev
+            //-     button.glide__arrow.glide__arrow--right(data-glide-dir=">") next
+            .glide__bullets(data-glide-el='controls[nav]')
+                - let f = 0
+                while f < 6
+                    button.glide__bullet(data-glide-dir=`=${f++}`)
+            a(href="#").main-link VER CATÁLOGO
+        section.information 
+            h3.information-title ALGUNOS DATOS
+            article.data-articles
+                .image-svg 
+                    img(src="/images/svg/undraw_takeout_boxes_ap54.svg", alt="")
+                    .line-bar
+                        span
+                p
+                    | El
+                    em  68%
+                    |  de residuos de plásticos de ámbito municipal son plástico de un solo 
+            article.data-articles
+                .image-svg 
+                    img(src="/images/svg/undraw_Throw_away_re_x60k.svg", alt="")
+                    .line-bar
+                        span
+                p
+                    | El
+                    em  0.3%
+                    |  de los residuos plásticos se recicla.
+        //- section.last-data
+        //-     .lasta-data-image 
+        //-         img(src="/images/images (18).jpg", alt="")
+        //-     h4.data-text LA DEGRADACIÓN DEL PLÁSTICO PUEDE DURAR MÁS DE 500 AÑOS
