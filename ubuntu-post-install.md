@@ -33,11 +33,11 @@
 - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
     > PLUGINS PARA OH-MY-ZSH 
-    # zsh-syntax-highlighting
+    ### zsh-syntax-highlighting
         - git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    # zsh-autosuggestions
+    ### zsh-autosuggestions
         - git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    # COLORLS (colores para TERMINAL)
+    ### COLORLS (colores para TERMINAL)
         - sudo apt-get install gem
         - sudo apt install ruby-full
         - sudo apt install ruby-dev gcc make
