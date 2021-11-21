@@ -1,17 +1,17 @@
 # OBLIGATORIO
 
-1. REALIZAR ACTUALIZACIONES
-2. Activar canonical partners
-3. INSTALAR CODECDS
+> REALIZAR ACTUALIZACIONES
+> Activar canonical partners
+> INSTALAR CODECDS
 	- sudo add-apt-repository multiverse
 	- sudo apt install ubuntu-restricted-extras
-4. INSTALAR CODECS DE AUDIO
+> INSTALAR CODECS DE AUDIO
 	- sudo apt-get install ffmpeg
 
 
 # EXTRAS A ELEGIR
 
-## PARA DESCARGAR MUSICA Y VIDEOS DE YOUTUBE
+### PARA DESCARGAR MUSICA Y VIDEOS DE YOUTUBE
 
 > Elige uno
 - sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
@@ -22,27 +22,29 @@
 - sudo chmod a+rx /usr/local/bin/yt-dlp
 
 
-## PARA PERSONALIZAR LA TERMINAL
+### PARA PERSONALIZAR LA TERMINAL
 
-> GIT
+> Instalar GIT
 - sudo apt-get install git
 
-> ZSH
+> Instalar ZSH
 - sudo apt-get install zsh
 
-> OH-MY-ZSH
+> Instalar OH-MY-ZSH
 - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-## PLUGINS PARA OH-MY-ZSH 
+### PLUGINS PARA OH-MY-ZSH 
 > zsh-syntax-highlighting
-    - git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+- git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 > zsh-autosuggestions
-    - git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+- git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 > COLORLS (colores para TERMINAL)
-    - sudo apt-get install gem
-    - sudo apt install ruby-full
-    - sudo apt install ruby-dev gcc make
-    - sudo gem install colorls
+- sudo apt-get install gem
+- sudo apt install ruby-full
+- sudo apt install ruby-dev gcc make
+- sudo gem install colorls
 
 > PONER POR DEFECTO OH-MY-ZSH
 - chsh -s $(which zsh)
